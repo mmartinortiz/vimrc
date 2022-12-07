@@ -55,3 +55,7 @@ endif
 
 " Show the line number
 set number
+
+" Open splits bellow
+set splitbelow
+
