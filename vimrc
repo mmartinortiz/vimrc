@@ -59,3 +59,21 @@ set number
 " Open splits bellow
 set splitbelow
 
+call plug#begin('~/.vim/plugged')
+
+" Make sure you use single quotes for comment
+Hello world
+
+Plug 'dag/vim-fish'
+
+Plug 'https://github.com/airblade/vim-gitgutter.git'
+
+Plug 'https://github.com/tpope/vim-commentary'
+" `gcc` to comment a line
+" `gc` to comment out the target of a motion
+" `gc` in visual mode to comment out a selection
+
+Plug 'https://github.com/tpope/vim-surround'
+
+" Add plugins to &runtimepath
+call plug#end()
